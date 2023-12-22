@@ -30,6 +30,7 @@
   grid-row-end: 2;
   grid-column-start: 2;
   grid-column-end: 3;*/
+  justify-self: start;
   background: red;
 }
 
@@ -39,10 +40,12 @@
   grid-row-end: 4;
   grid-column-start: 3;
   grid-column-end: 4;*/
+  justify-self: end;
   background: blue;
 }
 
 .item3 {
   grid-area: 2/2/3/3;
   background: green;
+  justify-self: center;
 }
